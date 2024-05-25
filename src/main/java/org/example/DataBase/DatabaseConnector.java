@@ -7,8 +7,8 @@ import java.sql.SQLException;
 public class DatabaseConnector {
 
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/musicdata";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "#123456789#";
+    private static final String USERNAME = "your_name";
+    private static final String PASSWORD = "your_password";
 
     public static Connection connect() throws SQLException {
         Connection connection = null;
