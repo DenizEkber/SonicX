@@ -8,8 +8,8 @@ import java.util.Properties;
 public class EmailSender {
     private final String host = "smtp.gmail.com";
     private final String port = "465";
-    private final String username = "olabilirbilmem1@gmail.com"; // Gmail adresiniz
-    private final String password = "gylcbbuqvgfuylcz"; // Uygulama şifresi kullanmalısınız
+    private final String username = "your_email"; // Gmail adresiniz
+    private final String password = "your_password"; // Uygulama şifresi kullanmalısınız
 
     public void sendVerificationEmail(String recipientEmail, String verificationCode) {
         Properties props = new Properties();
